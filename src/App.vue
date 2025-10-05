@@ -23,36 +23,31 @@ export default {
   name: 'App',
   data() {
     return {
-      title: 'Hello World',
+      title: 'Hello...',
       cards: [
         {
           image: '...',
-          title: 'Placeholder Text',
-          description: 'Sample placeholder description text for this card'
+          title: 'Who am I?',
+          description: 'to be done'
         },
         {
           image: '...',
-          title: 'Placeholder Text',
-          description: 'Sample placeholder description text for this card'
+          title: '...',
+          description: '...'
         },
         {
           image: '...',
-          title: 'Placeholder Text',
-          description: 'Sample placeholder description text for this card'
+          title: '...',
+          description: '...'
         },
         {
           image: '...',
-          title: 'Placeholder Text',
-          description: 'Sample placeholder description text for this card'
+          title: '...',
+          description: '...'
         }
       ]
     }
-  },
-  methods: {
-    handleCardClick(card) {
-      console.log('Card clicked:', card.title)
-    }
-  },
+  }
 }
 </script>
 
