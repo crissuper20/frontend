@@ -26,12 +26,12 @@ export default {
       title: 'Hello...',
       cards: [
         {
-          image: './res/thethinker.png',
+          image: 'src/res/thethinker.png',
           title: 'Who am I?',
           description: 'to be done'
         },
         {
-          image: '/res/mc-cat.png',
+          image: 'src/res/mc-cat.png',
           title: 'My Minecraft Server',
           description: 'Running Folia, 1.21.4-1.21.8 & Bedrock(only latest version), see web map'
         },
