@@ -56,6 +56,10 @@
         </div>
       </div>
     </Transition>
+
+    <footer class="site-footer">
+      <a href="/key.asc" class="footer-link">PGP Key</a>
+    </footer>
   </div>
 </template>
 
@@ -70,26 +74,26 @@ export default {
           image: '/res/thethinker.png',
           title: 'Who am I?',
           description: '',
-          details: 'Someone in El Salvador. If you are here you probably know me already',
+          details: 'Someone in El Salvador. If you are here you probably know me already, if not, hello! I do Linux and host gameservers. I use this same username almost everywhere.',
           link: ''
         },
         {
           image: '/res/mc-cat.png',
-          title: '',
-          description: '',
-          details: '',
+          title: 'Minecraft server stuff',
+          description: 'what you probably came for',
+          details: '(click image for bluemap)',
           link: 'https://crissuper20.com/map/'
         },
         {
-          image: '',
-          title: 'Soon™',
+          image: '/res/cat-computer.png',
+          title: 'GitHub',
           description: '',
-          details: '',
-          link: ''
+          details: 'not much there yet',
+          link: 'https://github.com/crissuper20',
         },
         {
           image: '',
-          title: 'Soon™',
+          title: '',
           description: '',
           details: '',
           link: ''
@@ -463,5 +467,23 @@ export default {
     grid-template-columns: 1fr;
     gap: 12px;
   }
+}
+
+.site-footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: underline;
 }
 </style>
